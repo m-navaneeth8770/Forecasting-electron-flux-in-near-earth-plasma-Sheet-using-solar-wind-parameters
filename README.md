@@ -3,14 +3,14 @@
 🧭 Project Overview
 This project aims to forecast Solar Spectral Irradiance (SSI) at a wavelength of 59.5 nm using machine learning techniques. SSI plays a crucial role in understanding solar-terrestrial interactions, especially its influence on the ionosphere, satellite communication, and space weather events. To achieve this, we use ensemble learning algorithms — specifically XGBoost, AdaBoost, and CatBoost — trained on historical space weather data.
 
-🎯 #Objective
+🎯 Objective
 To predict solar spectral irradiance (SSI) at 59.5 nm using a combination of solar wind parameters and interplanetary magnetic field (IMF) data.
 
 To apply ensemble models for more robust and interpretable forecasting of SSI.
 
 To analyze the effectiveness of different ensemble algorithms on the same dataset for comparative evaluation.
 
-#📊 Dataset Summary
+📊 Dataset Summary
 🔹 Data Collection
 Input Features Source: OMNIWeb (NASA)
 
@@ -33,10 +33,10 @@ Provides model-generated SSI values based on empirical solar measurements.
 
 Target used: ssi_59.5nm
 
-#🔹 Time Periods
+🔹 Time Periods
 Training Data: January 2008 – December 2015
 
-#🧹 Preprocessing
+🧹 Preprocessing
 Steps followed:
 Merge input (OMNI) and output (FISM) datasets by matching timestamps.
 
@@ -54,7 +54,7 @@ Preprocessed unscaled data
 
 Scaled data (used for model training and testing)
 
-#🤖 Models Implemented
+🤖 Models Implemented
 The project implemented three ensemble learning models:
 
 1. XGBoost
@@ -74,7 +74,7 @@ Efficient with less hyperparameter tuning and categorical data support.
 
 Each model was trained on the same dataset to compare performance fairly.
 
-#🧪 Model Evaluation
+🧪 Model Evaluation
 After model training, we evaluated the results using the following metrics:
 
 MAE (Mean Absolute Error) – Measures average magnitude of error.
@@ -87,7 +87,7 @@ Actual vs Predicted Plot – For visual inspection of model performance.
 
 These evaluations help determine the accuracy and generalization ability of each model.
 
-#🧰 Tools & Libraries Used
+🧰 Tools & Libraries Used
 Python 3.10
 
 pandas and numpy for data handling
