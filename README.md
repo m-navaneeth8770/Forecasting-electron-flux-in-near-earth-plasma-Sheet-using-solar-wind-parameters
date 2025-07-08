@@ -1,9 +1,9 @@
 # Forecasting-electron-flux-in-near-earth-plasma-Sheet-using-solar-wind-parameters
 
-#🧭 Project Overview
+🧭 Project Overview
 This project aims to forecast Solar Spectral Irradiance (SSI) at a wavelength of 59.5 nm using machine learning techniques. SSI plays a crucial role in understanding solar-terrestrial interactions, especially its influence on the ionosphere, satellite communication, and space weather events. To achieve this, we use ensemble learning algorithms — specifically XGBoost, AdaBoost, and CatBoost — trained on historical space weather data.
 
-#🎯 Objective
+🎯 #Objective
 To predict solar spectral irradiance (SSI) at 59.5 nm using a combination of solar wind parameters and interplanetary magnetic field (IMF) data.
 
 To apply ensemble models for more robust and interpretable forecasting of SSI.
